@@ -8,8 +8,7 @@
 
 
 .main{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.589),
-    rgba(0, 0, 0, 0.57)), url('https://source.unsplash.com/eTjX8xc1in8');
+    background-color: #101010;
     min-width: 100vw;
     min-height: 100vh;
     background-position: center;
