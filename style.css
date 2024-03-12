@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.main{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.589),
+    rgba(0, 0, 0, 0.57)), url('https://source.unsplash.com/eTjX8xc1in8');
+    min-width: 100vw;
+    min-height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: cover;
+    font-family: Josefin Sans,sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.heading{
+    /* color: #092635; */
+    font-size: 4rem;
+    margin-bottom: 0px;
+    letter-spacing: 15px;
+    color: #fff;
+}
+
+.box-section{
+    height: 400px;
+    width: 400px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    row-gap: 0px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+    color: #000;
+    background-color: #ffffffb1;
+    border-radius: 10px;
+
+}
+.box:hover{
+    opacity: 0.8;
+    scale: 0.9;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+
+.btn{
+    height: 40px;
+    width: 100px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(129, 129, 129, 0.636);
+    margin: 20px 30px;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+    scale: 1.02;
+    transition: all ease 0.3s;
+}
+.button{
+    display: flex;
+    
+}
+
+.message{
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: 700;
+    margin-top: 40px;
+
+}
+.hide{
+    display: none;
+}
