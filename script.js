@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+// document.addEventListener('DOMContentLoaded', () => {
     const boxes = document.querySelectorAll(".box");
     const para = document.querySelector("#para");
     const message = document.querySelector(".message");
@@ -74,5 +74,5 @@ document.addEventListener('DOMContentLoaded', () => {
     
     });
     
-});
+// });
 
