@@ -27,8 +27,11 @@
     /* color: #092635; */
     font-size: 4rem;
     margin-bottom: 0px;
-    letter-spacing: 15px;
+    letter-spacing: 12px;
     color: #fff;
+}
+.heading span{
+    color: orangered;
 }
 
 .box-section{
@@ -42,6 +45,12 @@
     gap: 20px;
     row-gap: 0px;
 }
+#board{
+    /* background-color: burlywood; */
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 9px 0;
+}
 
 .box{
     height: 100px;
@@ -51,7 +60,7 @@
     justify-content: center;
     font-size: 2.5rem;
     color: #000;
-    background-color: #ffffffb1;
+    background-color: #ffffff;
     border-radius: 10px;
 
 }
@@ -68,7 +77,8 @@
     width: 100px;
     border: none;
     border-radius: 10px;
-    background-color: rgba(129, 129, 129, 0.636);
+    background-color: transparent;
+    border: 1px solid white;
     margin: 20px 30px;
     font-weight: 700;
     color: #fff;
@@ -78,7 +88,7 @@
     background-color: #fff;
     color: black;
     scale: 1.02;
-    transition: all ease 0.3s;
+    transition: all ease-out 0.1s;
 }
 .button{
     display: flex;
@@ -94,4 +104,8 @@
 }
 .hide{
     display: none;
+}
+
+.highlight{
+    background-color: orangered;
 }
